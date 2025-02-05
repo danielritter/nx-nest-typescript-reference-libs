@@ -1,0 +1,24 @@
+{
+  "name": "@nest/backend-nest-two",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/backend-nest-two/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/packages/backend-nest-two",
+        "tsConfig": "packages/backend-nest-two/tsconfig.lib.json",
+        "packageJson": "packages/backend-nest-two/package.json",
+        "main": "packages/backend-nest-two/src/index.ts",
+        "assets": [
+          "packages/backend-nest-two/*.md"
+        ]
+      }
+    }
+  }
+}

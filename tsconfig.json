@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/backend-nest-one"
+    },
+    {
+      "path": "./packages/backend-nest-two"
+    }
+  ]
+}
