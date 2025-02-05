@@ -11,7 +11,7 @@
         "{options.outputPath}"
       ],
       "options": {
-        "outputPath": "dist/packages/backend-nest-two",
+        "outputPath": "packages/backend-nest-two/dist",
         "tsConfig": "packages/backend-nest-two/tsconfig.lib.json",
         "packageJson": "packages/backend-nest-two/package.json",
         "main": "packages/backend-nest-two/src/index.ts",
