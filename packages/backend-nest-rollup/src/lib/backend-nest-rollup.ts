@@ -1,3 +1,3 @@
-export function backendNestRollup(): string {
+export function backendNestRollup() {
   return 'backend-nest-rollup';
 }
