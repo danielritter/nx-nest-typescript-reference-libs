@@ -8,6 +8,9 @@
     },
     {
       "path": "./packages/backend-nest-two"
+    },
+    {
+      "path": "./packages/backend-nest-rollup"
     }
   ]
 }
